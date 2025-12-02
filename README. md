@@ -1,0 +1,45 @@
+# Menstruation Tracker
+
+A simple health-focused menstruation tracking web application built with React.  
+Users can sign up, log in, track their cycles, view history, and get predictions for their next period and estimated fertile window.
+
+---
+
+## 🚀 Features
+
+- Email + password authentication (localStorage-based)
+- Protected tracker area (only visible when logged in)
+- Add, edit, and delete cycle entries
+- Cycle predictions:
+  - Last period start
+  - Average cycle length
+  - Next expected period
+  - Estimated fertile window
+- Persistent data using `localStorage`
+- Simple, clean, and responsive user interface
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- HTML5 + CSS3
+- LocalStorage
+- React Hooks (`useState`, `useEffect`, `useContext`)
+
+---
+
+## 📂 Project Structure
+src/
+  Context/
+    AuthContext.jsx
+    Components/
+      Navbar.jsx
+      ProtectedRoute.jsx
+      CycleForm.jsx
+      CycleList.jsx
+      CycleSummary.jsx
+      Pages/
+        Login.jsx
+        Signup.jsx
+        Tracker.jsx
